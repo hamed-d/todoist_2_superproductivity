@@ -16,3 +16,5 @@ First you need to set up syncing in SP. Open SP and go to settings. At the botto
     ```
     python todoist_syncer.py --path S:/SPVault/ --token <your token goes here> --subtasks True
     ```
+   Running this script will create a new file in the same path that should be imported to SP.
+4. Now, go to SP>Setting>Import/Export and select "IMPORT FROM FILE" and select the new file from the path (according to the example it would be S:/SPVault/synced_vault.json) and that's it. You should now see the tasks from Todoist in SP.
